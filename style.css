@@ -67,12 +67,12 @@ nav ul li a:hover::after{
 
 .header-text{
   margin-top: 20%;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 .header-text h1{
-  font-size: 60px;
-  margin-top: 20px;
+  font-size: 50px;
+  margin-top: 50px;
 }
 
 .header-text h1 span{
@@ -84,7 +84,6 @@ nav ul li a:hover::after{
 /* for the id use # */
 #about {
   padding: 80px 0;
-  
 }
 
 .row {
@@ -109,6 +108,7 @@ nav ul li a:hover::after{
 .about-col-2 p {
   text-align: justify;
   font-size: 17px;
+  line-height: 26px;
 }
 
 
@@ -148,7 +148,7 @@ nav ul li a:hover::after{
 
 .tab-contents p{
   font-size: 17px;
-  line-height: 120%;
+  line-height: 26px;
 }
 .tab-contents ul li {
   list-style: none;
@@ -166,6 +166,10 @@ nav ul li a:hover::after{
 
 .tab-contents.active-tab {
   display: block; /* it will be visible */
+  line-height: 24px;
+}
+.tab-contents.education {
+  line-height: 24px;
 }
 
 /*  ------------------ services --------------- */
